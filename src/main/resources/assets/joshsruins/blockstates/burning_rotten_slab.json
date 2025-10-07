@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "joshsruins:block/rotten_wood_set/burning_rotten_slab"
+    },
+    "type=double": {
+      "model": "joshsruins:block/rotten_wood_set/burning_rotten_planks"
+    },
+    "type=top": {
+      "model": "joshsruins:block/rotten_wood_set/burning_rotten_slab_top"
+    }
+  }
+}

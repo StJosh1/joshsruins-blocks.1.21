@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:dust"
+    }
+  },
+  "result": {
+    "id": "joshsruins:dust_block",
+    "count": 1
+  }
+}

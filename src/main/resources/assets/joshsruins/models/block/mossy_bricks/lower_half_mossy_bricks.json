@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "joshsruins:block/mossy_bricks/lower_half_mossy_bricks_top",
+    "side": "joshsruins:block/mossy_bricks/lower_half_mossy_bricks"
+  }
+}

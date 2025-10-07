@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "joshsruins:block/brickcluster",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "joshsruins:block/brickcluster"
+    },
+    "facing=south": {
+      "model": "joshsruins:block/brickcluster",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "joshsruins:block/brickcluster",
+      "y": 270
+    }
+  }
+}

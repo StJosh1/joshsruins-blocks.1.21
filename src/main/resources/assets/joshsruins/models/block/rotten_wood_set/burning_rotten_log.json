@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "joshsruins:block/burning_rotten_log/burning_rotten_log_top",
+    "side": "joshsruins:block/burning_rotten_log/burning_rotten_log"
+  }
+}

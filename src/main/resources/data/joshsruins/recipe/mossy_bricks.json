@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#O#",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:moss_clump"
+    },
+    "O": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "id": "joshsruins:mossy_bricks",
+    "count": 1
+  }
+}

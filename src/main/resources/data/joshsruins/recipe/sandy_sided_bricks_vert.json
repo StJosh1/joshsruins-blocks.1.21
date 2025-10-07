@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:sandy_dust"
+    },
+    "O": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "id": "joshsruins:sandy_sided_bricks_vert",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "joshsruins:rotten_log"
+  },
+  "result": {
+    "id": "joshsruins:burning_rotten_log"
+  },
+  "experience": 0,
+  "cookingtime": 100
+}

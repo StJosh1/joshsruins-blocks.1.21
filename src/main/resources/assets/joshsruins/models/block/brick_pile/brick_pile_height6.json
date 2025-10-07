@@ -1,0 +1,7 @@
+{
+  "parent": "block/snow_height12",
+  "textures": {
+    "texture": "joshsruins:block/brick_pile",
+    "particle": "joshsruins:block/brick_pile"
+  }
+}

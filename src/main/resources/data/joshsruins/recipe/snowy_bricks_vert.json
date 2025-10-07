@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " O ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:snowy_clump"
+    },
+    "O": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "id": "joshsruins:snowy_bricks_vert",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "joshsruins:rotten_planks"
+  },
+  "result": {
+    "id": "joshsruins:burning_rotten_planks"
+  },
+  "experience": 0,
+  "cookingtime": 100
+}

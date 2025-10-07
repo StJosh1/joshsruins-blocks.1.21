@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:rotten_planks"
+    }
+  },
+  "result": {
+    "id": "joshsruins:rotten_door",
+    "count": 3
+  }
+}

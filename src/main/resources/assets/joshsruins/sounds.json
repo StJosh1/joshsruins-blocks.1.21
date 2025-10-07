@@ -1,0 +1,26 @@
+{
+  "service": {
+    "sounds": [
+      {
+        "name": "joshsruins:service",
+        "stream": true
+      }
+    ]
+  },
+  "hard": {
+    "sounds": [
+      {
+        "name": "joshsruins:hard",
+        "stream": true
+      }
+    ]
+  },
+  "save_me": {
+    "sounds": [
+      {
+        "name": "joshsruins:save_me",
+        "stream": true
+      }
+    ]
+  }
+}

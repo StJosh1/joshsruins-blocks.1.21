@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:moss_clump"
+    },
+    "O": {
+      "item": "joshsruins:rotten_log"
+    }
+  },
+  "result": {
+    "id": "joshsruins:mossy_sided_rotten_log_vert",
+    "count": 1
+  }
+}

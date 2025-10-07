@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " O ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:sandy_dust"
+    },
+    "O": {
+      "item": "joshsruins:rotten_planks"
+    }
+  },
+  "result": {
+    "id": "joshsruins:sandy_rotten_planks_vert",
+    "count": 1
+  }
+}

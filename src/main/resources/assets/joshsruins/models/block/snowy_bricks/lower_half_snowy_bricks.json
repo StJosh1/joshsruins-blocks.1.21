@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "joshsruins:block/lower_half_snowy_bricks/lower_half_snowy_bricks_top",
+    "side": "joshsruins:block/lower_half_snowy_bricks/lower_half_snowy_bricks"
+  }
+}

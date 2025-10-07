@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "joshsruins:block/mossy_rotten_log_vert/mossy_rotten_log_vert_bottom",
+    "side": "joshsruins:block/mossy_rotten_log_vert/mossy_rotten_log_vert",
+    "top": "joshsruins:block/mossy_rotten_log_vert/mossy_rotten_log_vert_top"
+  }
+}

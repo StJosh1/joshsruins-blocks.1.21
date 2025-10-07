@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "joshsruins:block/sandy_rotten_planks/sandy_rotten_planks"
+  }
+}

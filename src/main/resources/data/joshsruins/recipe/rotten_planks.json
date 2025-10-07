@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "joshsruins:rotten_log"
+    }
+  ],
+  "result": {
+    "id": "joshsruins:rotten_planks",
+    "count": 4
+  }
+}

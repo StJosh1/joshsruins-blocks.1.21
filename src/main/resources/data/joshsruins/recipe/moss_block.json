@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "joshsruins:moss_clump"
+    },
+    {
+      "item": "joshsruins:moss_clump"
+    },
+    {
+      "item": "joshsruins:moss_clump"
+    },
+    {
+      "item": "joshsruins:moss_clump"
+    }
+  ],
+  "result": {
+    "id": "minecraft:moss_block",
+    "count": 1
+  }
+}

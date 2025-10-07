@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "joshsruins:brick_pile",
+    "joshsruins:gold_pile",
+    "joshsruins:bone_pile",
+    "joshsruins:bone_pile_block",
+    "joshsruins:mossy_bricks",
+    "joshsruins:half_mossy_bricks",
+    "joshsruins:mossy_bricks_vert",
+    "joshsruins:mossy_sided_bricks_vert",
+    "joshsruins:half_mossy_bricks",
+    "joshsruins:lower_half_mossy_bricks",
+    "joshsruins:lower_half_sandy_bricks",
+    "joshsruins:half_sandy_bricks",
+    "joshsruins:sandy_bricks",
+    "joshsruins:sandy_sided_bricks_vert",
+    "joshsruins:sandy_bricks_vert",
+    "joshsruins:snowy_bricks",
+    "joshsruins:snowy_bricks_vert",
+    "joshsruins:snowy_sided_bricks_vert",
+    "joshsruins:half_snowy_bricks",
+    "joshsruins:lower_half_snowy_bricks",
+    "joshsruins:cracked_brick_stairs",
+    "joshsruins:cracked_brick_slab",
+    "joshsruins:cracked_bricks"
+
+  ]
+}

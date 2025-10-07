@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "joshsruins:block/rotten_wood_set/burning_rotten_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "joshsruins:block/rotten_wood_set/burning_rotten_log"
+    },
+    "axis=z": {
+      "model": "joshsruins:block/rotten_wood_set/burning_rotten_log_horizontal",
+      "x": 90
+    }
+  }
+}

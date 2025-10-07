@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "joshsruins:block/cracked_bricks/cracked_brick_slab"
+    },
+    "type=double": {
+      "model": "joshsruins:block/cracked_bricks"
+    },
+    "type=top": {
+      "model": "joshsruins:block/cracked_bricks/cracked_brick_slab_top"
+    }
+  }
+}

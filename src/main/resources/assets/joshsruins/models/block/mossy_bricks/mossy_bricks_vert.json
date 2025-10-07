@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "joshsruins:block/mossy_bricks_vert/mossy_bricks_vert_bottom",
+    "side": "joshsruins:block/mossy_bricks_vert/mossy_bricks_vert",
+    "top": "joshsruins:block/mossy_bricks_vert/mossy_bricks_vert_top"
+  }
+}

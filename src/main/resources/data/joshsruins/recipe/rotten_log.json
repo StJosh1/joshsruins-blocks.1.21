@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_log"
+    },
+    {
+      "item": "joshsruins:dust"
+    }
+  ],
+  "result": {
+    "id": "joshsruins:rotten_log",
+    "count": 1
+  }
+}

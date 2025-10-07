@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "joshsruins:block/brokensword",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "joshsruins:block/brokensword"
+    },
+    "facing=south": {
+      "model": "joshsruins:block/brokensword",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "joshsruins:block/brokensword",
+      "y": 270
+    }
+  }
+}

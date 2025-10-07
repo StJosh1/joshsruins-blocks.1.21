@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "joshsruins",
+	"version": "${version}",
+	"name": "JoshsRuins",
+	"description": "Adds tons of ruinous blocks to be used that are used in all of Josh's Structure mods",
+	"authors": [
+		"Josh"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/joshsruins/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.josh.joshsruins.JoshsRuins"
+		],
+		"fabric-datagen": [
+			"net.josh.joshsruins.JoshsRuinsDataGenerator"
+		],
+		"client": [
+			"net.josh.joshsruins.JoshsRuinsClient"
+		]
+	},
+	"mixins": [
+		"joshsruins.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

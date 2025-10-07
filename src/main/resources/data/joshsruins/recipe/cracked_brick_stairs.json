@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:cracked_bricks"
+    }
+  },
+  "result": {
+    "id": "joshsruins:cracked_brick_stairs",
+    "count": 4
+  }
+}

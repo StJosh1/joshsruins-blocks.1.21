@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "joshsruins:block/sandy_rotten_planks/lower_half_sandy_rotten_planks_top",
+    "side": "joshsruins:block/sandy_rotten_planks/lower_half_sandy_rotten_planks"
+  }
+}

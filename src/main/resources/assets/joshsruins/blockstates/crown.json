@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "joshsruins:block/crown",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "joshsruins:block/crown"
+    },
+    "facing=south": {
+      "model": "joshsruins:block/crown",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "joshsruins:block/crown",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:burning_rotten_planks"
+    }
+  },
+  "result": {
+    "id": "joshsruins:burning_rotten_stairs",
+    "count": 4
+  }
+}

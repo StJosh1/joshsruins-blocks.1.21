@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:bone_pile"
+    }
+  },
+  "result": {
+    "id": "joshsruins:bone_pile_block",
+    "count": 1
+  }
+}

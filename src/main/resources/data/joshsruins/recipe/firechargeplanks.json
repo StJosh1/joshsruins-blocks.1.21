@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "joshsruins:burning_rotten_planks"
+    }
+  ],
+  "result": {
+    "id": "minecraft:fire_charge",
+    "count": 1
+  }
+}

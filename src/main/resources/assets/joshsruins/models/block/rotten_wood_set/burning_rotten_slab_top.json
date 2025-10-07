@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "joshsruins:block/burning_rotten_planks/burning_rotten_planks",
+    "side": "joshsruins:block/burning_rotten_planks/burning_rotten_planks",
+    "top": "joshsruins:block/burning_rotten_planks/burning_rotten_planks"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "joshsruins:block/bigbone",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "joshsruins:block/bigbone"
+    },
+    "facing=south": {
+      "model": "joshsruins:block/bigbone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "joshsruins:block/bigbone",
+      "y": 270
+    }
+  }
+}

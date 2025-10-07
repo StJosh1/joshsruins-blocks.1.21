@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "joshsruins:block/snowy_sided_rotten_planks_vert/snowy_sided_rotten_planks_vert_bottom",
+    "side": "joshsruins:block/snowy_sided_rotten_planks_vert/snowy_sided_rotten_planks_vert",
+    "top": "joshsruins:block/snowy_sided_rotten_planks_vert/snowy_sided_rotten_planks_vert_top"
+  }
+}

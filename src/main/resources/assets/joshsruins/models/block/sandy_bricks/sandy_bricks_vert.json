@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "joshsruins:block/sandy_bricks_vert/sandy_bricks_vert_bottom",
+    "side": "joshsruins:block/sandy_bricks_vert/sandy_bricks_vert",
+    "top": "joshsruins:block/sandy_bricks_vert/sandy_bricks_vert_top"
+  }
+}
