@@ -8,6 +8,7 @@ import net.josh.joshsruins.JoshsRuins;
 import net.josh.joshsruins.block.ModBlocks;
 import net.josh.joshsruins.block.custom.BigBoneBlock;
 import net.josh.joshsruins.block.custom.BrickCluster;
+import net.josh.joshsruins.block.custom.CrownBlock;
 import net.josh.joshsruins.block.custom.GoldCoinBlock;
 import net.minecraft.block.*;
 import net.minecraft.client.render.block.BlockModels;
@@ -46,7 +47,7 @@ public class ModBlocks {
 
     public static final Block BrokenSword = registerBlock("brokensword",new GoldCoinBlock(AbstractBlock.Settings.create().nonOpaque()));
 
-    public static final Block Crown = registerBlock("crown",new GoldCoinBlock(AbstractBlock.Settings.create().nonOpaque().luminance(state -> 7).strength(1.0f)));
+    public static final Block Crown = registerBlock("crown",new CrownBlock(AbstractBlock.Settings.create().nonOpaque().luminance(state -> 7).strength(1.0f)));
 
 
     public static final Block Rotten_Log = registerBlock("rotten_log",
@@ -438,6 +439,7 @@ public static final Block Dust_Block = registerBlock("dust_block",
             entries.add(ModBlocks.BrokenSword);
             entries.add(ModBlocks.BrickCluster);
             entries.add(ModBlocks.Crown);
+
         });
     }
 }
