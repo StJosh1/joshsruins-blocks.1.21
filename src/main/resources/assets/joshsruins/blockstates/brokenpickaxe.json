@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "joshsruins:block/brokenpickaxe",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "joshsruins:block/brokenpickaxe"
+    },
+    "facing=south": {
+      "model": "joshsruins:block/brokenpickaxe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "joshsruins:block/brokenpickaxe",
+      "y": 270
+    }
+  }
+}

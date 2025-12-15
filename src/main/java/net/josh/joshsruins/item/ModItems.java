@@ -2,6 +2,7 @@ package net.josh.joshsruins.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.josh.joshsruins.JoshsRuins;
+import net.josh.joshsruins.block.ModBlocks;
 import net.josh.joshsruins.sound.ModSounds;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.LoreComponent;
@@ -32,6 +33,10 @@ public class ModItems {
 
     public static final Item Snowy_Clump = registerItem("snowy_clump", new Item(new Item.Settings()));
 
+    public static final Item Mushroom_Clump = registerItem("mushroom_clump", new Item(new Item.Settings()));
+
+    public static final Item Molten_Dust = registerItem("molten_dust", new Item(new Item.Settings()));
+
     public static final Item Crucifix = registerItem("crucifix", new Item(new Item.Settings()
             .rarity(Rarity.EPIC).maxCount(1).fireproof().component(DataComponentTypes.LORE,
                     new LoreComponent(List.of(Text.literal("Christ is King").formatted(Formatting.GOLD,Formatting.BOLD)))
@@ -43,9 +48,12 @@ public class ModItems {
 
     public static final Item Save_Me_Music_Disc = registerItem("save_me_music_disc",new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.Save_Me_Key).maxCount(1)));
 
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(JoshsRuins.MOD_ID, name), item);
     }
+
 
     public static void registerModItems() {
         JoshsRuins.LOGGER.info("Registering Mod Items for " + JoshsRuins.MOD_ID);
@@ -55,6 +63,8 @@ public class ModItems {
             entries.add(Moss_Clump);
             entries.add(Sandy_Dust);
             entries.add(Snowy_Clump);
+            entries.add(Molten_Dust);
+            entries.add(Mushroom_Clump);
 
         });
     }

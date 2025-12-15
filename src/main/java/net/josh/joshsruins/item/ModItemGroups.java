@@ -19,7 +19,9 @@ public class ModItemGroups {
 
                         entries.add(ModItems.DUST);
                         entries.add(ModItems.Sandy_Dust);
+                        entries.add(ModItems.Molten_Dust);
                         entries.add(ModItems.Moss_Clump);
+                        entries.add(ModItems.Mushroom_Clump);
                         entries.add(ModItems.Snowy_Clump);
                         entries.add(ModItems.Service_Music_Disc);
                         entries.add(ModItems.Hard_Music_Disc);
@@ -33,6 +35,10 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.Rotten_Log))
                     .displayName(Text.translatable("itemgroup.joshsruins.joshs_ruins_blocks"))
                     .entries((displayContext, entries) -> {
+
+                        //tables
+                        entries.add(ModBlocks.ClumpingTableBlock);
+
 
                         //Rotten Wood Set
                         entries.add(ModBlocks.Rotten_Log);
@@ -77,6 +83,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.Half_Mossy_Bricks);
                         entries.add(ModBlocks.Lower_Half_Mossy_Bricks);
 
+                        entries.add(ModBlocks.Mossy_Vine);
                         entries.add(ModBlocks.Moss_Pile);
 
                         //SANDY
@@ -102,6 +109,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.Sandy_Sided_Bricks_Vert);
                         entries.add(ModBlocks.Half_Sandy_Bricks);
                         entries.add(ModBlocks.Lower_Half_Sandy_Bricks);
+                        entries.add(ModBlocks.Sandy_Vine);
 
                         //Snowy Logs
                         entries.add(ModBlocks.Snowy_Rotten_Log);
@@ -126,6 +134,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.Half_Snowy_Bricks);
                         entries.add(ModBlocks.Lower_Half_Snowy_Bricks);
 
+                        entries.add(ModBlocks.Snowy_Vine);
+
                         //Sand
 
                         entries.add(ModBlocks.Boney_Sand);
@@ -136,6 +146,9 @@ public class ModItemGroups {
                         //Dust
                         entries.add(ModBlocks.Dust_Block);
                         entries.add(ModBlocks.Dust_Pile);
+                        entries.add(ModBlocks.Molten_Dust_Block);
+                        entries.add(ModBlocks.Molten_Dust_Pile);
+                        entries.add(ModBlocks.DustBunny);
 
                         //Charcoal after dust
                         entries.add(ModBlocks.Charcoal_Pile);
@@ -144,6 +157,28 @@ public class ModItemGroups {
                         entries.add(ModBlocks.Bone_Pile_Block);
                         entries.add(ModBlocks.Bone_Pile);
                         entries.add(ModBlocks.BigBone);
+
+                        entries.add(ModBlocks.Skeleton_Corpse);
+                        entries.add(ModBlocks.Laying_Skeleton_Corpse);
+                        entries.add(ModBlocks.Headless_Laying_Skeleton_Corpse);
+                        entries.add(ModBlocks.Mossy_Skeleton_Corpse);
+                        entries.add(ModBlocks.Mossy_Laying_Skeleton_Corpse);
+                        entries.add(ModBlocks.Headless_Mossy_Laying_Skeleton_Corpse);
+
+                        entries.add(ModBlocks.Snowy_Skeleton_Corpse);
+                        entries.add(ModBlocks.Snowy_Laying_Skeleton_Corpse);
+                        entries.add(ModBlocks.Headless_Snowy_Laying_Skeleton_Corpse);
+
+                        entries.add(ModBlocks.Sandy_Skeleton_Corpse);
+                        entries.add(ModBlocks.Sandy_Laying_Skeleton_Corpse);
+                        entries.add(ModBlocks.Headless_Sandy_Laying_Skeleton_Corpse);
+
+                        entries.add(ModBlocks.Burning_Skeleton_Corpse);
+                        entries.add(ModBlocks.Burning_Laying_Skeleton_Corpse);
+                        entries.add(ModBlocks.Headless_Burning_Laying_Skeleton_Corpse);
+
+
+                        entries.add(ModBlocks.Frozen_Skull);
 
                        //Cracked OREs
                         entries.add(ModBlocks.Cracked_Diamond_Block);
@@ -156,7 +191,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.Iron_Pile);
 
                         entries.add(ModBlocks.BrokenSword);
-
+                        entries.add(ModBlocks.BrokenPickaxe);
+                        entries.add(ModBlocks.RoyalFlag);
 
 
 

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:vine",
+    "joshsruins:mossy_vine",
+    "joshsruins:sandy_vine",
+    "joshsruins:snowy_vine"
+  ]
+}

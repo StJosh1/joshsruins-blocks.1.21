@@ -1,18 +1,22 @@
 package net.josh.joshsruins.block;
 
-import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.josh.joshsruins.JoshsRuins;
-import net.josh.joshsruins.block.ModBlocks;
-import net.josh.joshsruins.block.custom.BigBoneBlock;
-import net.josh.joshsruins.block.custom.BrickCluster;
+import net.josh.joshsruins.block.*;
+import net.josh.joshsruins.block.custom.*;
 import net.josh.joshsruins.block.custom.CrownBlock;
+import net.josh.joshsruins.block.custom.DustBunnyBlock;
+import net.josh.joshsruins.block.custom.FrozenSkullBlock;
 import net.josh.joshsruins.block.custom.GoldCoinBlock;
+import net.josh.joshsruins.block.custom.LayingSkeletonCorpseBlock;
+import net.josh.joshsruins.block.custom.MossySkeletonCorpseBlock;
+import net.josh.joshsruins.block.custom.RoyalFlagBlock;
+
+
+import net.josh.joshsruins.block.custom.SkeletonCorpseBlock;
 import net.minecraft.block.*;
-import net.minecraft.client.render.block.BlockModels;
-import net.minecraft.data.client.Model;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -23,16 +27,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.block.BlockSetType;
 import net.minecraft.block.WoodType;
 import net.minecraft.block.TrapdoorBlock;
-import net.minecraft.block.BlockSetType;
-import net.minecraft.block.TrapdoorBlock;
-import net.minecraft.block.BlockSetType;
 import net.minecraft.block.DoorBlock;
-import net.minecraft.item.AxeItem;
-import com.google.common.collect.Maps;
 import net.minecraft.block.Block;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.Identifier;
 
 
 //LOG SHEIT
@@ -41,13 +37,28 @@ public class ModBlocks {
 
     public static final Block GoldCoin = registerBlock("goldcoin",new GoldCoinBlock(AbstractBlock.Settings.create().nonOpaque()));
 
+    public static final Block RoyalFlag = registerBlock("royalflag",new net.josh.joshsruins.block.custom.RoyalFlagBlock(AbstractBlock.Settings.create().nonOpaque()));
+
     public static final Block BigBone = registerBlock("bigbone",new GoldCoinBlock(AbstractBlock.Settings.create().nonOpaque()));
 
     public static final Block BrickCluster = registerBlock("brickcluster",new GoldCoinBlock(AbstractBlock.Settings.create().nonOpaque()));
 
+
     public static final Block BrokenSword = registerBlock("brokensword",new GoldCoinBlock(AbstractBlock.Settings.create().nonOpaque()));
 
+    public static final Block BrokenPickaxe = registerBlock("brokenpickaxe",new GoldCoinBlock(AbstractBlock.Settings.create().nonOpaque()));
+
     public static final Block Crown = registerBlock("crown",new CrownBlock(AbstractBlock.Settings.create().nonOpaque().luminance(state -> 7).strength(1.0f)));
+
+    public static final Block DustBunny = registerBlock("dustbunny",new DustBunnyBlock(AbstractBlock.Settings.create().nonOpaque()));
+
+
+
+
+    public static final Block ClumpingTableBlock = registerBlock("clumpingtable",
+            new Block(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+
+
 
 
     public static final Block Rotten_Log = registerBlock("rotten_log",
@@ -292,6 +303,9 @@ public static final  Block Snowy_Bricks = registerBlock("snowy_bricks",
 public static final Block Dust_Block = registerBlock("dust_block",
         new Block(AbstractBlock.Settings.create().strength(.2f).sounds(BlockSoundGroup.GRAVEL)));
 
+    public static final Block Molten_Dust_Block = registerBlock("molten_dust_block",
+            new Block(AbstractBlock.Settings.create().luminance(state -> 7).strength(.2f).sounds(BlockSoundGroup.GRAVEL)));
+
     public static final Block Bone_Pile_Block = registerBlock("bone_pile_block",
             new Block(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.BONE)));
 
@@ -304,7 +318,64 @@ public static final Block Dust_Block = registerBlock("dust_block",
     public static final Block Cracked_Iron_Block = registerBlock("cracked_iron_block",
             new Block(AbstractBlock.Settings.create().strength(5f).sounds(BlockSoundGroup.METAL)));
 
+    public static final Block Mossy_Vine = registerBlock("mossy_vine",
+            new VineBlock(AbstractBlock.Settings.create().nonOpaque().noCollision().requiresTool().strength(0.2f).sounds(BlockSoundGroup.VINE)));
 
+    public static final Block Sandy_Vine = registerBlock("sandy_vine",
+            new VineBlock(AbstractBlock.Settings.create().nonOpaque().noCollision().requiresTool().strength(0.2f).sounds(BlockSoundGroup.VINE)));
+
+    public static final Block Snowy_Vine = registerBlock("snowy_vine",
+            new VineBlock(AbstractBlock.Settings.create().nonOpaque().noCollision().requiresTool().strength(0.2f).sounds(BlockSoundGroup.VINE)));
+
+    public static final Block Skeleton_Corpse = registerBlock("skeleton_corpse",
+            new SkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Burning_Skeleton_Corpse = registerBlock("burning_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.BurningSkeletonCorpseBlock(AbstractBlock.Settings.create().luminance(state -> 7).nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Burning_Laying_Skeleton_Corpse = registerBlock("burning_laying_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.BurningLayingSkeletonCorpseBlock(AbstractBlock.Settings.create().luminance(state -> 7).nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Headless_Burning_Laying_Skeleton_Corpse = registerBlock("headless_burning_laying_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.BurningLayingSkeletonCorpseBlock(AbstractBlock.Settings.create().luminance(state -> 7).nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Sandy_Skeleton_Corpse = registerBlock("sandy_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.SandySkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Frozen_Skull = registerBlock("frozen_skull",
+            new net.josh.joshsruins.block.custom.FrozenSkullBlock(AbstractBlock.Settings.create().nonOpaque().strength(1f).sounds(BlockSoundGroup.GLASS)));
+
+    public static final Block Snowy_Skeleton_Corpse = registerBlock("snowy_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.SnowySkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Mossy_Skeleton_Corpse = registerBlock("mossy_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.MossySkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+
+    public static final Block Laying_Skeleton_Corpse = registerBlock("laying_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.LayingSkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Snowy_Laying_Skeleton_Corpse = registerBlock("snowy_laying_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.SnowyLayingSkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Headless_Snowy_Laying_Skeleton_Corpse = registerBlock("headless_snowy_laying_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.SnowyLayingSkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Sandy_Laying_Skeleton_Corpse = registerBlock("sandy_laying_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.LayingSkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+
+    public static final Block Headless_Sandy_Laying_Skeleton_Corpse = registerBlock("headless_sandy_laying_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.LayingSkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Mossy_Laying_Skeleton_Corpse = registerBlock("mossy_laying_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.MossyLayingSkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Headless_Mossy_Laying_Skeleton_Corpse = registerBlock("headless_mossy_laying_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.MossyLayingSkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
+
+    public static final Block Headless_Laying_Skeleton_Corpse = registerBlock("headless_laying_skeleton_corpse",
+            new net.josh.joshsruins.block.custom.LayingSkeletonCorpseBlock(AbstractBlock.Settings.create().nonOpaque().strength(5f).sounds(BlockSoundGroup.BONE)));
 
     public static final Block Boney_Sand = registerBlock("boney_sand",
             new Block(AbstractBlock.Settings.create().strength(.5f).sounds(BlockSoundGroup.SAND)));
@@ -340,6 +411,9 @@ public static final Block Dust_Block = registerBlock("dust_block",
 
     public static final  Block Sand_Pile = registerBlock("sand_pile",
             new SnowBlock(FabricBlockSettings.create().strength(.5f).sounds(BlockSoundGroup.SAND)));
+
+    public static final  Block Molten_Dust_Pile = registerBlock("molten_dust_pile",
+            new SnowBlock(FabricBlockSettings.create().luminance(state -> 7).strength(.5f).sounds(BlockSoundGroup.GRAVEL)));
 
 
 
@@ -437,9 +511,35 @@ public static final Block Dust_Block = registerBlock("dust_block",
             entries.add(ModBlocks.GoldCoin);
             entries.add(ModBlocks.BigBone);
             entries.add(ModBlocks.BrokenSword);
+            entries.add(ModBlocks.BrokenPickaxe);
             entries.add(ModBlocks.BrickCluster);
             entries.add(ModBlocks.Crown);
+            entries.add(ModBlocks.DustBunny);
+            entries.add(ModBlocks.Mossy_Vine);
 
+            entries.add(ModBlocks.Skeleton_Corpse);
+            entries.add(ModBlocks.Snowy_Skeleton_Corpse);
+            entries.add(ModBlocks.Laying_Skeleton_Corpse);
+            entries.add(ModBlocks.RoyalFlag);
+            entries.add(ModBlocks.Headless_Laying_Skeleton_Corpse);
+            entries.add(ModBlocks.Mossy_Skeleton_Corpse);
+            entries.add(ModBlocks.Mossy_Laying_Skeleton_Corpse);
+            entries.add(ModBlocks.Sandy_Vine);
+            entries.add(ModBlocks.Snowy_Vine);
+            entries.add(ModBlocks.Snowy_Laying_Skeleton_Corpse);
+            entries.add(ModBlocks.Frozen_Skull);
+            entries.add(ModBlocks.Sandy_Skeleton_Corpse);
+            entries.add(ModBlocks.Sandy_Laying_Skeleton_Corpse);
+            entries.add(ModBlocks.Burning_Skeleton_Corpse);
+            entries.add(ModBlocks.Burning_Laying_Skeleton_Corpse);
+            entries.add(ModBlocks.Molten_Dust_Block);
+            entries.add(ModBlocks.Headless_Mossy_Laying_Skeleton_Corpse);
+            entries.add(ModBlocks.Headless_Snowy_Laying_Skeleton_Corpse);
+            entries.add(ModBlocks.Headless_Sandy_Laying_Skeleton_Corpse);
+            entries.add(ModBlocks.Headless_Burning_Laying_Skeleton_Corpse);
+            entries.add(ModBlocks.Molten_Dust_Pile);
+
+            entries.add(ModBlocks.ClumpingTableBlock);
         });
     }
 }

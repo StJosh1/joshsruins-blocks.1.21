@@ -12,11 +12,11 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
 
-public class BrickCluster extends HorizontalFacingBlock {
-    public static final MapCodec<BrickCluster> CODEC = createCodec(BrickCluster::new);
-    private static final VoxelShape SHAPE = Block.createCuboidShape(3.0, 0.0, 3.0, 16.0, 1.0, 16.0);
+public class RoyalFlagBlock extends HorizontalFacingBlock {
+    public static final MapCodec<RoyalFlagBlock> CODEC = createCodec(RoyalFlagBlock::new);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 32.0, 13.0);
 
-    public BrickCluster(Settings settings) {
+    public RoyalFlagBlock(Settings settings) {
         super(settings);
     }
 

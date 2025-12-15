@@ -27,7 +27,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class CrownBlock extends HorizontalFacingBlock {
     public static final MapCodec<CrownBlock> CODEC = createCodec(CrownBlock::new);
-    private static final VoxelShape SHAPE = Block.createCuboidShape(4.0, 0.0, 5.0, 12.0, 2.0, 12.0);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 2.0, 13.0);
 
     public CrownBlock(Settings settings) {
         super(settings);

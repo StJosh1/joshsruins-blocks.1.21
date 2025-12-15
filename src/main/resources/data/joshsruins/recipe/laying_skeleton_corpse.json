@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#BB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "B": {
+      "item": "joshsruins:bigbone"
+    }
+  },
+  "result": {
+    "id": "joshsruins:laying_skeleton_corpse",
+    "count": 1
+  }
+}

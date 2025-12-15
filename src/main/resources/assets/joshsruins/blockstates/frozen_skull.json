@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "joshsruins:block/frozen_skull",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "joshsruins:block/frozen_skull"
+    },
+    "facing=south": {
+      "model": "joshsruins:block/frozen_skull",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "joshsruins:block/frozen_skull",
+      "y": 270
+    }
+  }
+}

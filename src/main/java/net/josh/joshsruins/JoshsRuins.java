@@ -3,6 +3,8 @@ package net.josh.joshsruins;
 import net.fabricmc.api.ModInitializer;
 
 import net.josh.joshsruins.block.ModBlocks;
+
+import net.josh.joshsruins.block.entity.ModBlockEntities;
 import net.josh.joshsruins.item.ModItemGroups;
 import net.josh.joshsruins.item.ModItems;
 import org.slf4j.Logger;
@@ -22,6 +24,7 @@ public class JoshsRuins implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModBlockEntities.registerBlockEntities();
 
 	}
 }

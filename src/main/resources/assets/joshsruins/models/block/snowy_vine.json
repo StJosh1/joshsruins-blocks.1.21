@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/vine",
+  "textures": {
+    "vine": "joshsruins:block/snowy_vine",
+    "particle": "joshsruins:block/snowy_vine"
+  }
+}

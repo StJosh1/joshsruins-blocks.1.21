@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "###",
+        "R R"
+    ],
+    "key": {
+        "#": {
+            "item": "joshsruins:dust"
+        },
+        "R": {
+            "item": "minecraft:rabbit_foot"
+        }
+    },
+    "result": {
+        "id": "joshsruins:dustbunny",
+        "count": 1
+    }
+}

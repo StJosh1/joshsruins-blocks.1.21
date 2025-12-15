@@ -8,5 +8,25 @@
     "id": "joshsruins:burning_rotten_planks"
   },
   "experience": 0,
-  "cookingtime": 100
+  "cookingtime": 100,
+
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:molten_dust"
+    },
+    "O": {
+      "item": "joshsruins:rotten_planks"
+    }
+  },
+  "result": {
+    "id": "joshsruins:burning_rotten_planks",
+    "count": 1
+  }
+
 }

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "joshsruins:dust_block"
+  },
+  "result": {
+    "id": "joshsruins:molten_dust_block"
+  },
+  "experience": 0,
+  "cookingtime": 100,
+
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:molten_dust"
+    },
+    "O": {
+      "item": "joshsruins:dust_block"
+    }
+  },
+  "result": {
+    "id": "joshsruins:molten_dust_block",
+    "count": 1
+  }
+
+}

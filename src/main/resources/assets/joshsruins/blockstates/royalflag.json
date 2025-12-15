@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "joshsruins:block/royalflag",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "joshsruins:block/royalflag"
+    },
+    "facing=south": {
+      "model": "joshsruins:block/royalflag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "joshsruins:block/royalflag",
+      "y": 270
+    }
+  }
+}

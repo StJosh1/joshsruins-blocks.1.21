@@ -175,6 +175,37 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 90],
+			"translation": [-7, 0.75, -0.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-20, 0, 90],
+			"translation": [-7, 0.75, -0.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 4, 90],
+			"translation": [-3.5, 3.25, -1.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-101, 4, 79],
+			"translation": [-5.75, 4.25, -1.75]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [90, 0, 0]
+		},
+		"head": {
+			"translation": [0, 14.5, 0]
+		},
+		"fixed": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 8]
+		}
+	},
 	"groups": [
 		{
 			"name": "bone",

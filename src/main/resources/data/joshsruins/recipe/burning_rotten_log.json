@@ -7,5 +7,25 @@
     "id": "joshsruins:burning_rotten_log"
   },
   "experience": 0,
-  "cookingtime": 100
+  "cookingtime": 100,
+
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "joshsruins:molten_dust"
+    },
+    "O": {
+      "item": "joshsruins:rotten_log"
+    }
+  },
+  "result": {
+    "id": "joshsruins:burning_rotten_log",
+    "count": 1
+  }
+
 }

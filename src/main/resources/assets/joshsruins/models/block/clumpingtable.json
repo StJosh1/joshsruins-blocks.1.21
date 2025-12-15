@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "top": "joshsruins:block/clumpingtable/clumping_table_top",
+    "bottom": "joshsruins:block/clumpingtable/clumping_table_bottom",
+    "north": "joshsruins:block/clumpingtable/clumping_table_north",
+    "south": "joshsruins:block/clumpingtable/clumping_table_south",
+    "east": "joshsruins:block/clumpingtable/clumping_table_east",
+    "west": "joshsruins:block/clumpingtable/clumping_table_west"
+  }
+}

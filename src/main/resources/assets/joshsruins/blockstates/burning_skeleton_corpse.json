@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "joshsruins:block/burning_skeleton_corpse",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "joshsruins:block/burning_skeleton_corpse"
+    },
+    "facing=south": {
+      "model": "joshsruins:block/burning_skeleton_corpse",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "joshsruins:block/burning_skeleton_corpse",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "joshsruins:dust"
+  },
+  "result": {
+    "id": "joshsruins:molten_dust"
+  },
+  "experience": 0,
+  "cookingtime": 60
+}
